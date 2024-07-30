@@ -1,7 +1,7 @@
 {
   "name": "frontened",
   "version": "0.1.0",
-  "proxy": "https://taskmernbackend1-nld39dyu.b4a.run",
+  "proxy": "https://localhost:8000",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",

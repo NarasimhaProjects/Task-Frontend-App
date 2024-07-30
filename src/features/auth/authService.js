@@ -1,5 +1,5 @@
 import axios from 'axios'
-const API_URL = 'https://taskmernbackend1-nld39dyu.b4a.run//api/users/'
+const API_URL = '/api/users/'
 
 const register = async (userData) => {
   const response = await axios.post(API_URL, userData)
