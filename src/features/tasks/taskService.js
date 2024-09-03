@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = '/api/tasks/'
+const API_URL = 'https://task-backend-app-3b9j.onrender.com/api/tasks/'
 
 const createTask = async (taskData, token) => {
     const config = {
